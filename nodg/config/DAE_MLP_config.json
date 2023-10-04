@@ -1,0 +1,28 @@
+{
+    "data_dir": "data/output/pred_TPS/cassandra-TPS.csv",
+    "config": "config/DAE_MLP_config.json",
+    "AE_model_path": "model/AE/AE.pt",
+    "DAE_model_path": "model/DAE/",
+    "save_model": 0,
+    "save_finalresult": 0,
+    "cuda": 1,
+    "log_interval": 100,
+    "epochs": 1,
+    "batch_size": 32,
+    "lr": 0.001,
+    "DAE_input_size": 218,
+    "DAE_encoder_sizes": [
+        64,
+        16
+    ],
+    "AE_input_size": 28,
+    "AE_encoder_sizes": [
+        16,
+        4
+    ],
+    "fc_sizes": [
+        32,
+        16
+    ],
+    "output_size": 1
+}

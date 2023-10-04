@@ -1,0 +1,6 @@
+{
+    "batch_size": {"_type": "choice","_value" : [32, 64, 128, 256, 512]},
+    "lr": {"_type": "choice","_value" : [0.01, 0.001, 0.0001, 0.00001]},
+    "VM_hidden_size": {"_type" : "choice", "_value" : [16, 32, 64, 128, 256]},
+    "SoI_hidden_size": {"_type" : "choice", "_value" : [16, 32, 64, 128, 256]}
+}

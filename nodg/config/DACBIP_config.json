@@ -1,0 +1,30 @@
+{
+    "data_dir": "/home/yyx/interference_prediction/dacbip/0_data.csv",
+    "config": "/home/yyx/interference_prediction/dacbip/config/DACBIP_config.json",
+    "VM_encoder_model": "/home/yyx/interference_prediction/dacbip/model/DAE_VM.pt",
+    "SoI_encoder_model": "/home/yyx/interference_prediction/dacbip/model/DAE_SOI.pt",
+    "save_model": 0,
+    "cuda": 1,
+    "log_interval": 100,
+    "epochs": 1,
+    "batch_size": 32,
+    "lr": 0.001,
+    "VM_input_size": 219,
+    "VM_encoder_sizes": [
+        16,
+        4
+    ],
+    "SoI_input_size": 29,
+    "SoI_encoder_sizes": [
+        16,
+        4
+    ],
+    "CNN_kernel_size": 3,
+    "CNN_channels": [
+        2,
+        0,
+        4,
+        0
+    ],
+    "output_size": 1
+}
